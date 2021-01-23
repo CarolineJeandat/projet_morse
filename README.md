@@ -7,4 +7,4 @@ On notera notamment que les lettres avec accent, le ç et l'apostrophe ne sont p
 
 Lorsque le terminal demande de saisir le nom d'un fichier, entrer un fichier sous le format indiqué (.txt ou .wav), sans préciser .txt ou .wav à la fin du nom du fichier (entrer "nom_fichier" et pas "nom_fichier.txt").
 
-Ce dossier comporte 7 fichiers audio .wav test, dont 5 ont leur traduction en français sous .txt.
+Ce dossier comporte 2 fichiers audio .wav tests, et 5 fichiers .txt tests.
