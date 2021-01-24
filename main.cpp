@@ -19,7 +19,6 @@ int main ()
     {   
         case 1 :
             //Du fichier texte au morse
-            // ...
             std::cout << "Entrez le nom du fichier .txt : " << std::endl;
             std::cin.ignore ();
             getline ( std::cin, file_name );

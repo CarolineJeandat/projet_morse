@@ -73,7 +73,6 @@ void morse_to_audio ( const std::string morse )
 {
     std::string file_name;
     std::cout << "Quel nom donner au fichier audio ?" << std::endl;
-    //cin.ignore();
     getline(std::cin, file_name);
     std::ofstream f( file_name + ".wav", std::ios::binary );
 
@@ -97,7 +96,7 @@ void morse_to_audio ( const std::string morse )
 
     const double hz        = 44100;
     const double frequency = 261.626; 
-    const double seconds   = 0.5; // time for a 'ti'
+    const double seconds   = 0.5;
 
     int morse_len = morse.size();
     int time_ti = hz * seconds; // durée d'un ti : 0.5 seconde
@@ -107,6 +106,8 @@ void morse_to_audio ( const std::string morse )
     int time_silence = time_ti; // silence entre chaque ti / ta
 
     size_t file_length = f.tellp();
+
+    // écriture des data dans le .wav
 
     for (int i_lettre = 0; i_lettre < morse_len; i_lettre++)
     {

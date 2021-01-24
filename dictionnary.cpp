@@ -24,7 +24,7 @@ std::string morse_letters[] =
         "-.-.-.", "-....-", " "
     };
 
-// faire classe dictionnaire pour créer soit l'un soit l'autre ?
+// création des dictionnaires du français au morse puis du morse au français
 
 std::map <char,std::string> make_dico_letters () 
 {
