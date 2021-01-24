@@ -8,3 +8,5 @@ On notera notamment que les lettres avec accent, le ç, l'apostrophe et les guil
 Lorsque le terminal demande de saisir le nom d'un fichier, entrer un fichier sous le format indiqué (.txt ou .wav), sans préciser .txt ou .wav à la fin du nom du fichier (entrer "nom_fichier" et pas "nom_fichier.txt").
 
 Ce dossier comporte 2 fichiers audio .wav test, et 5 fichiers test .txt (leur traduction en audio morse n'a pas été ajoutée dans ce dossier car ils sont trop volumineux).
+
+Un Makefile permet la compilation des différentes fonctions.
