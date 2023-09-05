@@ -1,12 +1,12 @@
-DOCUMENTATION UTILISATEUR :
+# USER DOCUMENTATION :
 
-L'algorithme permet de traduire un texte en français en Morse, sur un fichier audio .wav, et inversement. Le texte en français peut être entré via un fichier .txt, ou directement en le saisissant sur le clavier.
+The algorithm enables written text to be translated into Morse code on a .wav audio file, and vice versa. Written text can be entered via a .txt file, or directly from the keyboard.
 
-Attention : tous les caractères ne sont pas disponibles. Les caractères autorisés sont : les lettres de l'alphabet latin, en majuscule et en minuscule ; les chiffres de 0 à 9 ; les caractères de ponctuation suivants : . , ? ! / ( ) : ; -
-On notera notamment que les lettres avec accent, le ç, l'apostrophe et les guillemets ne sont pas disponibles.
+Please note that not all characters are available. Allowed characters are: letters of the Latin alphabet, upper and lower case; numbers from 0 to 9; the following punctuation characters: . , ? ! / ( ) : ; -
+Note that letters with accents, ç, apostrophes and quotation marks are not available.
 
-Lorsque le terminal demande de saisir le nom d'un fichier, entrer un fichier sous le format indiqué (.txt ou .wav), sans préciser .txt ou .wav à la fin du nom du fichier (entrer "nom_fichier" et pas "nom_fichier.txt").
+When the terminal asks you to enter a file name, enter a file in the indicated format (.txt or .wav), without specifying .txt or .wav at the end of the file name (enter "file_name" and not "file_name.txt").
 
-Ce dossier comporte 2 fichiers audio .wav test, et 5 fichiers test .txt (leur traduction en audio morse n'a pas été ajoutée dans ce dossier car ils sont trop volumineux).
+This folder contains 2 test .wav audio files, and 5 test .txt files (their translation into Morse code audio has not been added to this folder as they are too large).
 
-Un Makefile permet la compilation des différentes fonctions.
+A Makefile is used to compile the various functions.
